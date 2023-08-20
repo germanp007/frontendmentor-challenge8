@@ -28,7 +28,7 @@ const CardComponent: React.FC<SVGComponentProps> = ({
         {paragraph}
       </p>
       <button
-        className={`bg-white h-11 w-[134px] rounded-[30px]  text-[15px] font-[500] text-${button} hover:bg-transparent hover:text-white border-2 border-white`}
+        className={`bg-white h-11 w-[134px] rounded-[30px]  text-[15px] font-[500] text-${button} hover:bg-transparent hover:text-white border-2 border-white transition duration-500`}
       >
         Learn More
       </button>
